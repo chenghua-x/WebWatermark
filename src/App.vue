@@ -2,20 +2,7 @@
   <!-- 顶部 -->
   <Header title="Web Watermark" desc="你的在线水印助手" />
   <main class="p-4">
-    <!-- 公告 -->
-    <Alert class="pt-0 pb-2 sm:py-4">
-      <AlertTitle class="font-bold hidden sm:flex sm:gap-2">
-        <RocketIcon class="h-4 w-4 hidden sm:flex" /> Heads up!
-      </AlertTitle>
-      <AlertDescription class="p-0 text-xs sm:text-sm">
-        <p class="pt-2 text-slate-500">* 本站承诺不会上传、保存用户的任何图片信息，水印处理全部在浏览器中进行。</p>
-        <p class="text-stone-600">* 本站支持网或开启飞行模式后离 线使用，无需担心隐私问题。</p>
-        <p>水印样式多样调节,不限制文件大小,水印处理时间越长与文件大小有关</p>
-        <p style="font-weight: bold;">· 开源地址: <a style="color: #0969da;" href="https://github.com/uxiaohan/WebWatermark"
-            target="_blank">Web-Watermark</a>
-        </p>
-      </AlertDescription>
-    </Alert>
+    
     <!-- 主体 -->
     <div class="w-full h-max pt-4 flex flex-col gap-2">
       <Input v-model="WATERMARK_VAL" type="text" placeholder="请输入水印内容" @change="renderCanvas" />
